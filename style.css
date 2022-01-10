@@ -19,9 +19,8 @@
 }
 .logo{
     width: 80px;
-    cursor: pointer;
-   height: 60px;
-   padding: 20px 100px;
+   height: auto;
+   float: left;
 }
 .navber ul li{
     list-style: none;
@@ -33,14 +32,18 @@ margin: 0 20px;
     color: #fff;
     text-transform: uppercase;
 }
-.content h1{
+.content{
     text-align: center;
-    margin-top: 10px;
-}
-.content p{
-    margin-top: 5px;
+    margin: auto;
 }
 .content button{
-   margin: 5px;
+    margin-top: 25px;
+    height: 30px;
+    width: 80px;
+    color: black;
+   background-color: paleturquoise;
+   padding: 5px;
+   border-radius:20%;
 
 }
+
